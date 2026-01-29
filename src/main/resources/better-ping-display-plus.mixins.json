@@ -1,0 +1,14 @@
+{
+	"required": false,
+	"package": "com.starsng.betterpingdisplayplus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

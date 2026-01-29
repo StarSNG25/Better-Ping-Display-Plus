@@ -1,0 +1,7 @@
+{
+	"better-ping-display-plus.settings.title": "Better Ping Display+ Settings",
+	"better-ping-display-plus.settings.nullPingPlaceholder": "Null Ping Placeholder",
+	"better-ping-display-plus.settings.nullPingPlaceholder.description": "The placeholder for ping of 0ms.",
+	"better-ping-display-plus.settings.nullPingPlaceholderColor": "Null Ping Placeholder Color",
+	"better-ping-display-plus.settings.nullPingPlaceholderColor.description": "The color for the null ping placeholder."
+}

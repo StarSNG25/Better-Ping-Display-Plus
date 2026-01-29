@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.starsng.betterpingdisplayplus.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CustomPlayerListHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

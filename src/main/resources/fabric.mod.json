@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "better-ping-display-plus",
+	"version": "${mod_version}",
+	"name": "Better Ping Display+",
+	"description": "Adds improvements to Better Ping Display by vladmarica.",
+	"authors": [
+		"Star_SNG"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/better-ping-display-plus",
+		"sources": "https://github.com/StarSNG25/Better-Ping-Display-Plus",
+		"issues": "https://github.com/StarSNG25/Better-Ping-Display-Plus/issues"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/better-ping-display-plus/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.starsng.betterpingdisplayplus.BetterPingDisplayPlus"
+		],
+		"client": [
+			"com.starsng.betterpingdisplayplus.BetterPingDisplayPlusClient"
+		],
+		"modmenu": [
+			"com.starsng.betterpingdisplayplus.integrations.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"better-ping-display-plus.mixins.json",
+		{
+			"config": "better-ping-display-plus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": "*",
+		"betterpingdisplay": ">=1.2.0"
+	},
+	"suggests": {
+		"modmenu": ">=17.0.0-beta.2",
+		"yet_another_config_lib_v3": ">=3.8.2+1.21.11-fabric"
+	}
+}
