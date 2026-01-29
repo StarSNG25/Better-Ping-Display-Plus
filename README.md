@@ -9,6 +9,9 @@ A [Fabric](https://fabricmc.net/) mod for Minecraft to add improvements to [Bett
 
 This is a client-side mod. The server doesn't need to have it installed. It works even when playing on vanilla servers.
 
+## Feature
+Currently, there's only one feature in this addon mod, which is to display null (0ms) ping as the set placeholder, where the default value is `N/A`. This covers players who just joined and the ping has not been reported yet, or Bedrock players on Geyser servers.
+
 ## Configuration
 This mod's config file is `better-ping-display-plus.json`. It contains the following options:
 
