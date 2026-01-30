@@ -5,7 +5,7 @@
 
 A [Fabric](https://fabricmc.net/) mod for Minecraft to add improvements to [Better Ping Display](https://github.com/vladmarica/better-ping-display-fabric) by [vladmarica](https://github.com/vladmarica).
 
-![](https://raw.githubusercontent.com/StarSNG25/better-ping-display-plus/refs/heads/1.21.x-fabric/src/main/resources/assets/better-ping-display-plus/icon.png)
+![](https://raw.githubusercontent.com/StarSNG25/better-ping-display-plus/refs/heads/1.21.x-fabric/assets/in-game-ping-preview.png)
 
 This is a client-side mod. The server doesn't need to have it installed. It works even when playing on vanilla servers.
 
