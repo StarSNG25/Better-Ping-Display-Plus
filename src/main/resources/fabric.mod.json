@@ -27,7 +27,6 @@
 		]
 	},
 	"mixins": [
-		"better-ping-display-plus.mixins.json",
 		{
 			"config": "better-ping-display-plus.client.mixins.json",
 			"environment": "client"
