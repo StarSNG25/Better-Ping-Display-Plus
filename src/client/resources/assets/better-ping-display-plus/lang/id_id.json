@@ -1,0 +1,7 @@
+{
+	"better-ping-display-plus.settings.title": "Pengaturan Better Ping Display+",
+	"better-ping-display-plus.settings.nullPingPlaceholder": "Teks Pengganti Ping Null",
+	"better-ping-display-plus.settings.nullPingPlaceholder.description": "Teks pengganti untuk ping 0ms.",
+	"better-ping-display-plus.settings.nullPingPlaceholderColor": "Warna Teks Pengganti Ping Null",
+	"better-ping-display-plus.settings.nullPingPlaceholderColor.description": "Warna untuk teks pengganti ping null."
+}
